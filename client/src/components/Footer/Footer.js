@@ -1,11 +1,11 @@
 import React from 'react';
 import "../../css/Footer/Footer.css";
-
+import {words} from '../../words';
 function Footer()
 {
     return (
        <footer>
-          &copy; Copyright Udemy Course;
+              {words.footerCopyright}
        </footer>
     )
 }
